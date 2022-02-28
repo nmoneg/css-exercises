@@ -1,0 +1,10 @@
+/* To select an element with multiple classes, do not add a space between them */
+.avatar.proportioned {
+    width: 300px;
+    height: auto;
+}
+
+.avatar.distorted {
+    width: 200px;
+    height: 400px;
+}
