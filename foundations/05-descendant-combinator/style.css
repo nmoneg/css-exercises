@@ -1,0 +1,26 @@
+.container > .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* You can also remove the carot and leave just a space, but know that a carot between the selectors mean that only DIRECT (1st generation) children with the specified class will be selected, while using just a space will select ALL descendants with the specified class:  */
+
+/* .container .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+} */
+
+
+
+/* Alternatively, the following would also work:  */
+
+/* div > p {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+} */
